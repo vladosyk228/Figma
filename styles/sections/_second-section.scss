@@ -1,0 +1,12 @@
+// Second section styles
+.second-section {
+    padding: 112px $gap $gap;
+    @include flex-center(column, wrap, center, center);
+  
+    p {
+      padding-bottom: 0;
+      text-align: center;
+      max-width: 540px;
+    }
+  }
+  

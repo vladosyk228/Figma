@@ -1,0 +1,32 @@
+// Third section styles
+.third-section {
+    padding: 100px 0;
+  
+    ul {
+      @include flex-center(row, wrap, center, center);
+      gap: 45px;
+      color: $white-color;
+    }
+  
+    .project-item {
+      @include flex-center(row, nowrap, center, center);
+      gap: $gap;
+  
+      p:first-child {
+        color: $white-color;
+        font-size: 21px;
+        font-weight: 500;
+        line-height: 24px;
+        padding: 0 0 10px 0;
+      }
+  
+      p:last-child {
+        color: $white-color;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 16px;
+        padding: 0;
+      }
+    }
+  }
+  

@@ -1,0 +1,13 @@
+// Mixins
+@mixin transition($property, $duration, $timing: linear) {
+    transition: $property $duration $timing;
+  }
+  
+  @mixin flex-center($direction: row, $wrap: nowrap, $justify: flex-start, $align: flex-start) {
+    display: flex;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+    justify-content: $justify;
+    align-items: $align;
+  }
+  

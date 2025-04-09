@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1110px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 80px;
+}
+header ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style: none;
+  gap: 20px;
+}
+header ul a {
+  text-decoration: none;
+  color: #000;
+  transition: color 0.3s linear;
+}
+header ul a:hover {
+  color: #34547a;
+}
+header .mobile-navigation {
+  display: none;
+}
+
+footer {
+  padding: 50px 0;
+}
+footer p:first-child {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 24px;
+  color: #fff;
+  padding: 0 0 20px 0;
+}
+footer p:last-child {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #fff;
+  padding: 0;
+}
+
+.main-section {
+  padding-top: 80px;
+  padding-bottom: 140px;
+}
+.main-section h1 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 78px;
+}
+.main-section p {
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 540px;
+  padding: 60px 0 65px;
+}
+.main-section .btn-write-me {
+  padding: 19px 41px 20px;
+  background-color: #34547a;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.3s linear;
+}
+.main-section .btn-write-me:hover {
+  opacity: 0.6;
+}
+
+.second-section {
+  padding: 112px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.second-section p {
+  padding-bottom: 0;
+  text-align: center;
+  max-width: 540px;
+}
+
+.third-section {
+  padding: 100px 0;
+}
+.third-section ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+  color: #fff;
+}
+.third-section .project-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.third-section .project-item p:first-child {
+  color: #fff;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 0 0 10px 0;
+}
+.third-section .project-item p:last-child {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  padding: 0;
+}
+
+.fourth-section {
+  padding: 100px 20px;
+}/*# sourceMappingURL=main.css.map */

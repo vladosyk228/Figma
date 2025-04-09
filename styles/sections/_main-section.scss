@@ -1,0 +1,37 @@
+// Main section styles
+.main-section {
+    padding-top: $gap-lx;
+    padding-bottom: 140px;
+  
+    h1 {
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 78px;
+    }
+  
+    p {
+      color: $nickel-color;
+      font-weight: 400;
+      font-size: $font-size;
+      line-height: 26px;
+      max-width: 540px;
+      padding: 60px 0 65px;
+    }
+  
+    .btn-write-me {
+      padding: 19px 41px 20px;
+      background-color: $metallic-blue;
+      font-size: $font-size;
+      font-weight: 400;
+      line-height: 26px;
+      color: $white-color;
+      border: none;
+      cursor: pointer;
+      @include transition(opacity, 0.3s);
+      
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+  }
+  
