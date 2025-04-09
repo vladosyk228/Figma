@@ -1,0 +1,11 @@
+// Main SCSS entry point
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/reset';
+@import 'layout/container';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'sections/main-section';
+@import 'sections/second-section';
+@import 'sections/third-section';
+@import 'sections/fourth-section';

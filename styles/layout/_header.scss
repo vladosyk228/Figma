@@ -1,0 +1,25 @@
+// Header styles
+header {
+    padding: $gap-lx;
+    
+    ul {
+      @include flex-center(row, nowrap, flex-start, flex-start);
+      list-style: none;
+      gap: $gap;
+    }
+  
+    ul a {
+      text-decoration: none;
+      color: $black-color;
+      @include transition(color, 0.3s);
+      
+      &:hover {
+        color: $metallic-blue;
+      }
+    }
+  
+    .mobile-navigation {
+      display: none;
+    }
+  }
+  
